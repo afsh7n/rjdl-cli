@@ -1,0 +1,30 @@
+{
+  "name": "rjdl-cli",
+  "version": "1.0.0",
+  "description": "download Music , Video,Podcast From radiojavan.com",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "rjdl": "app.js"
+  },
+  "keywords": [
+    "rjdl",
+    "radioJavan",
+    "downloader"
+  ],
+  "author": "AfshinTavakolian",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "cli-progress": "^3.8.2",
+    "download-file-with-progressbar": "^1.2.3",
+    "figlet": "^1.5.0",
+    "progress": "^2.0.3",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.20"
+  }
+}
