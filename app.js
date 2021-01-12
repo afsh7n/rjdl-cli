@@ -77,7 +77,7 @@ yargs.command([{
 },
 {
     command: "*",
-    describe: [console.log(chalk.red( figlet.textSync('RadioJavan Downloader'))),console.log("Usage: rjdl <command>"),console.log("\nExample: rjdl video https://www.radiojavan.com/videos/video/dj-moeen-video-mix-1 hd"),console.log("\n--------------------------------------------------------------")],
+    describe: [console.log(chalk.red( figlet.textSync('RadioJavan Downloader'))),console.log("Usage: rjdl <command>"),console.log("\nExample: rjdl video -u='https://www.radiojavan.com/videos/video/dj-taba-video-mix-3' -q='hd'"),console.log("\n--------------------------------------------------------------")],
     builder: {}
 }
 ]);
