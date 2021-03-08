@@ -1,7 +1,7 @@
 # rjdl-cli | DownloaderRadioJavan
 ## Installation
 ```
-npm i rjdl-cli
+npm i -g rjdl-cli
 ```
 ## Usage
 ```
