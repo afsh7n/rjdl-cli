@@ -4,7 +4,7 @@
   "description": "download Music , Video,Podcast From radiojavan.com",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "bin": {
     "rjdl": "app.js"
@@ -21,6 +21,7 @@
     "cli-progress": "^3.8.2",
     "download-file-with-progressbar": "^1.2.3",
     "figlet": "^1.5.0",
+    "nodemon": "^2.0.7",
     "progress": "^2.0.3",
     "yargs": "^16.2.0"
   },

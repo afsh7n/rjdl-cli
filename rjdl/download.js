@@ -54,6 +54,7 @@ const download = (url, filename, callback) => {
             progressBar.stop();
             file.close(callback);
             console.log(chalk.green(`Downloaded ${filename} SaveAs Floder Downloads/RadioJavan`))
+            console.log(chalk.red( figlet.textSync('Afsh7n@gmail.com')))
         });
     
         file.on('error', (err) => {
