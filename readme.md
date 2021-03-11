@@ -5,25 +5,21 @@ npm i -g rjdl-cli
 ```
 ## Usage
 ```
-rjdl <command>
+rjdl <Link>
 ```
 Example Download Music: 
 ```
-rjdl music -u="https://www.radiojavan.com/mp3s/mp3/Farshid-Khoobe-Halemoon"
+rjdl https://www.radiojavan.com/mp3s/mp3/Farshid-Khoobe-Halemoon
 ```
 Example Download Video: 
 ```
-rjdl video -u="https://www.radiojavan.com/videos/video/dj-taba-video-mix-3" -q="hd"
+rjdl https://www.radiojavan.com/videos/video/dj-taba-video-mix-3
 ```
 Example Download Podcast: 
 ```
-rjdl podcast -u="https://www.radiojavan.com/podcasts/podcast/Gheramophone-14"
-```
-## Help 
-```
-rjdl --help
+rjdl https://www.radiojavan.com/podcasts/podcast/Gheramophone-14
 ```
 ## ScreenShot Project
-[![](https://github.com/afsh7n/rjdl-cli/blob/master/ScreenShot/1.png)](https://github.com/afsh7n/rjdl-cli/blob/master/ScreenShot/1.png)
+[![](https://github.com/afsh7n/rjdl-cli/blob/master/ScreenShot/Screenshot.png)](https://github.com/afsh7n/rjdl-cli/blob/master/ScreenShot/Screenshot.png)
 # Licence
 MIT
